@@ -10,7 +10,7 @@ let j = 0;
 
 while (j < temp.length) {
   result += temp[j] + (j !== temp.length - 1 ? "\n" : "");
-  j++;
+  j++
 }
 
 console.log(result);
